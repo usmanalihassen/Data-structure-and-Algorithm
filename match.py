@@ -14,3 +14,11 @@ def function():
     print("hello")
     print("my name is osman")
 function()
+def add(x,y):
+    print(x+y)
+
+add(2,4)
+def sum(x,y):
+    c=x+y
+    print(f"the sum is {c}")
+sum(100,200)
