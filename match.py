@@ -10,3 +10,7 @@ def point_location(point):
             return f"At coordinates ({x}, {y})"
         case _:
             return "Unknown location"
+def function():
+    print("hello")
+    print("my name is osman")
+function()
