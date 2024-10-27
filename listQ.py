@@ -5,6 +5,7 @@ print(list)
 list.append(2)
 list.pop(2)
 print(list)
+#3, Slice a List: Write code to get the last three elements of the list [1, 2, 3, 4, 5, 6, 7, 8]
 A=[1,2,3,4,5,6,7,8]
 B=A[-3:]
 print(B)
