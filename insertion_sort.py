@@ -11,4 +11,15 @@ for i in range(1,n):
     my_array.insert(insert_index, current_value)
 
 print("Sorted array:", my_array)
+#EXAMPLE-2
+arr = [3, 1, 4, 1, 5]
+for i in range (1, len(arr)):
+    key=arr[i]
+    j=i-1
+    while j>=0 and arr[j]>key:
+        arr[j+1]=arr[j]
+        j=j-1
+
+    arr[j+1]=key
+print("sorted array=", arr)
 
