@@ -28,7 +28,7 @@ def quick_sort(arr):
     if len(arr) <= 1:
         return arr
     
-    # Choose the pivot (we're using the last element here)
+    
     pivot = arr[-1]
     left = []  # Elements less than pivot
     right = []  # Elements greater than pivot
