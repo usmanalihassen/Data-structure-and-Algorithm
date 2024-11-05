@@ -6,3 +6,5 @@ for i in range(n-1):
             my_array[j], my_array[j+1] = my_array[j+1], my_array[j]
 
 print("Sorted array:", my_array)
+#Exercise on bubble sort
+Array=[64, 34, 25, 12, 22, 11, 90]
