@@ -13,3 +13,16 @@ if result != -1:
     print("Value",targetVal,"found at index",result)
 else:
     print("Value",targetVal,"not found")
+   
+   
+#example 2
+array=[3,4,6,8,9,65,42,55]
+targetval=100
+for i in range(len(array)):
+    if array[i]==targetval:
+        print("The target value is:",targetVal)
+        break
+    else:
+        print("number not found!")
+        break
+
