@@ -12,6 +12,7 @@ print(list)
 latters=['a','b','c','d','e','f','g','h']
 latters[2:5]=['C','D','E']
 print(latters)
+print(latters)
 latters[2:5]=[]
 print(latters)
 a, b = 0, 1
