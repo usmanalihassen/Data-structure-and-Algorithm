@@ -16,3 +16,13 @@ car3= Car("v8","white")
 print(car1.describe())  # Output: This is a red Toyota.
 print(car2.describe())  # Output: This is a black Tesla.
 print(car3.describe())
+#class method 
+class Employee:
+    company = "TechCorp"
+
+    @classmethod
+    def get_company(cls):
+        return f"The company is {cls.company}."
+
+print(Employee.get_company())  # Output: The company is TechCorp.
+
