@@ -194,4 +194,4 @@ traverseAndPrint(node1)
 node1 = deleteSpecificNode(node1, node4)
 
 print("\nAfter deletion:")
-traverseAndPrint(node1)
+traverseAndPrint(node1) 
